@@ -1,10 +1,9 @@
+
 # ALU
 # Aim:
 To stimulate and synthesis 16bit ALU using Vivado
-
 # Apparatus Required
 vivado 2023.2 software.
-
 # Procedure
 STEP:1 Start the vivado software, Select and Name the New project.
 
@@ -17,9 +16,8 @@ STEP:4 Type the File Name and module name and Click Next and then finish button.
 STEP:5 Select the run simulation and then run Behavioral Simulation in the Source Window and click the check syntax.
 
 STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table.
+
 STEP:7 compare the output with truth table.
-
-
 ![image](https://github.com/RESMIRNAIR/ALU/assets/154305926/33dff162-59b3-44e2-886a-1ddd6e60979f)
 # ALU Arithmetic and Logic Operations
 ----------------------------------------------------------------------
@@ -57,6 +55,7 @@ STEP:7 compare the output with truth table.
 ----------------------------------------------------------------------
 | 1111  |   ALU_Out = 1 if A=B else 0;
 # Program
+```
 module alu (
 input[7:0]A,B,
 input[3:0]ALU_SEL,
@@ -102,9 +101,10 @@ default: Result=A+B;
 endcase
 end
 endmodule
-
+```
 # Output:
-![image](https://github.com/navyasaik/ALU/assets/165140258/c78911b6-5744-4905-9dad-619c25edd1b2)
+![image](https://github.com/PenumalliGowriNandhini/ALU/assets/163722612/90328cd7-c632-48d6-8d30-481932b8e331)
+
 # Result
 Thus the verilog program for 16bit ALU has been simulated and verified successfully.
 

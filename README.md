@@ -102,6 +102,7 @@ default: Result=A+B;
 endcase
 end
 endmodule
+
 # Output:
 ![image](https://github.com/navyasaik/ALU/assets/165140258/c78911b6-5744-4905-9dad-619c25edd1b2)
 # Result

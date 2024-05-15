@@ -1,4 +1,3 @@
-
 # ALU
 # Aim:
 To stimulate and synthesis 16bit ALU using Vivado
@@ -107,7 +106,4 @@ endmodule
 
 # Result
 Thus the verilog program for 16bit ALU has been simulated and verified successfully.
-
-
-
 
